@@ -1,0 +1,50 @@
+title: Putting AGILE on the map 🗺️
+author:
+  name: Daniel nüst
+  email: "daniel.nuest@tu-dresden.de"
+description: >-
+  An AGILE initiative to georeference all research contributions published at the
+  AGILE conference series.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: ""
+#github_username:  
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+minima:
+  show_excerpts: true
+  skin: auto
+  date_format: "%Y-%m-%d"
+  social_links:
+    - title: project repository
+      icon: github
+      url: "https://github.com/GeoinformationSystems/agile-on-the-map/"
+    - title: Daniel @ Mastodon
+      icon: fa-brands fa-mastodon
+      url: "https://mstdn.social/@nuest"
+
+keywords:
+  - open access
+  - open data
+  - open source
+  - open science
+  - open research
+  - reseach discovery
+  - geospatial metadata
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
